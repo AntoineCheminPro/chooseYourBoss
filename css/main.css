@@ -86,6 +86,129 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+   body{
+    background-image: url(https://s3-eu-west-1.amazonaws.com/assets.chooseyourboss.com/images/splash-general-3.png);
+   } 
+
+   @font-face {
+    font-family: 'gotham_blackregular';
+    src: url('../img/Gotham Black Regular/Gotham Black Regular.ttf');
+  }
+
+  .flex {
+    display: flex;
+  }
+
+  .center {
+  justify-self: center;
+  align-self: center;
+  }
+
+  nav {
+  display: block;
+  justify-content: space-around;
+  height: 70px;
+  border-bottom: 2px solid rgba(183, 178, 199, .3);
+  }
+
+.burger {
+  position: absolute;
+  left: 20px;
+  height: 70px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  position: relative;
+  height: 70px;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.imglogo{
+  margin: 0 30px;
+  width : 116px;
+  height: 40px;
+}
+.divcol {
+  flex-direction: column;
+}
+
+.main-p-color{
+color: #ffffff;
+font-family: 'gotham_blackregular';
+font-size: 36px;
+margin: 0 0 10px 0;
+text-align: center;
+}
+
+.second-p-color
+{
+color: #22ffdd;
+font-family: 'gotham_blackregular';
+font-size: 20px;
+margin: 0 0 10px 0;
+text-align: center;
+}
+
+.bluebox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 380px;
+  background-color:#2b345d;
+
+}
+
+.btn {
+  font-size: 26px;
+  color :#ffffff;
+  background: #4D22ff;
+  margin : 10px;
+  padding: 5px 25px;
+  border-radius: 24px;
+  font-weight: 400;
+  text-decoration: none;
+  font-family: 'mulish';
+}
+
+
+
+
+div {
+  display: block;
+}
+
+header{
+  padding: 0 px 15px;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+
+}
+
+h1 {
+  font-size: 46px;
+  font-family: 'gotham_blackregular';
+  margin: 0 0 30px;
+}
+
+p {
+  font-size: 26px;
+  font-family: 'mulish';
+}
+
+
+/* h1, h2, h3 {
+}
+ */
+
 
 /* ==========================================================================
    Helper classes

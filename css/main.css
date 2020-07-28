@@ -88,7 +88,8 @@ textarea {
    ========================================================================== */
    body{
     background-image: url(https://s3-eu-west-1.amazonaws.com/assets.chooseyourboss.com/images/splash-general-3.png);
-   } 
+    line-height: 1.1; 
+  } 
 
    @font-face {
     font-family: 'gotham_blackregular';
@@ -129,7 +130,7 @@ textarea {
   align-items: center;
 }
 
-.imglogo{
+.imglogo {
   margin: 0 30px;
   width : 116px;
   height: 40px;
@@ -176,6 +177,19 @@ text-align: center;
   font-family: 'mulish';
 }
 
+.matching {
+  height: auto;
+  width: 250px;
+
+}
+
+.description {
+  font-size: 18px;
+  line-height: 1.428571429;
+  text-align: justify;
+  display: block;
+  padding: 0 40px 0 40px;
+}
 
 
 
@@ -198,12 +212,30 @@ h1 {
   font-family: 'gotham_blackregular';
   margin: 0 0 30px;
 }
-
-p {
-  font-size: 26px;
-  font-family: 'mulish';
+h2 {
+  font-size: 36px;
+  font-family: 'gotham_blackregular';
+  text-align: center;
 }
 
+p, h3 {
+  font-size: 26px;
+  font-family: 'mulish';
+  text-align: center;
+  display: block;
+  margin: 40px 0 10px 0;
+}
+h4 {
+  margin-top: 40px;
+  font-size: 18px;
+  font-family: 'gotham_blackregular';
+  text-align: center;
+}
+
+section {
+  background-color: #efeafa;
+  padding: 0 15px 0 15px;
+}
 
 /* h1, h2, h3 {
 }

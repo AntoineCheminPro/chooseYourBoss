@@ -86,96 +86,107 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-   body{
+  body{
     background-image: url(https://s3-eu-west-1.amazonaws.com/assets.chooseyourboss.com/images/splash-general-3.png);
     line-height: 1.1; 
-  } 
+} 
 
-   @font-face {
+  @font-face {
     font-family: 'gotham_blackregular';
     src: url('../img/Gotham Black Regular/Gotham Black Regular.ttf');
-  }
+}
 
-  * {
+* {
     margin: 0;
     padding: 0;
+    font-family: 'gotham_blackregular';
+}
+
+nav {
+  display: block;
+  justify-content: space-around;
+  height: 70px;
+  border-bottom: 2px solid rgba(183, 178, 199, .3);
   }
 
-  nav {
-    display: block;
-    justify-content: space-around;
-    height: 70px;
-    border-bottom: 2px solid rgba(183, 178, 199, .3);
-    }
+header {
+  padding: 0 px 15px;
+  height: 600px;
+  margin-bottom: 30px;
+}
   
-  header {
-    padding: 0 px 15px;
-    height: 600px;
-    margin-bottom: 30px;
-  }
-  
-  div {
-    display: block;
-  }
-  
-  h1 {
-    font-size: 46px;
-    font-family: 'gotham_blackregular';
-    margin: 0 0 30px;
-  }
-  
-  h2 {
-    font-size: 36px;
-    font-family: 'gotham_blackregular';
-    text-align: center;
-  }
+div {
+  display: block;
+}
 
-   p, h3 {
-    font-size: 26px;
-    font-family: 'mulish';
-    text-align: center;
-    display: block;
-    margin: 40px 0 10px 0;
-    color: #212121;
-  }
-  
-  p {
-    line-height: 1.428571429;
-  } 
-  
-  h4 {
-    margin-top: 40px;
-    font-size: 18px;
-    font-family: 'gotham_blackregular';
-    text-align: center;
-  }
-  
-  section {
-    padding: 0 15px 0 15px;
-  }
-  
-  ul {
-    list-style: none;
-  }
-  
-  a {
-    font-size: 20px;
-    font-family: 'gotham_blackregular';
-    color: #222222;
-    text-decoration: none;
-  }
-  
-  .flex {
-    display: flex;
-  }
+h1 {
+  font-size: 46px;
+  margin: 50px 0 30px;
+}
 
-  .center {
+h2 {
+  font-size: 36px;
+  text-align: center;
+  padding: 40px 0 20px 0;
+}
+
+  h3 {
+  font-size: 26px;
+  font-family: 'mulish';
+  text-align: center;
+  display: block;
+  margin: 20px 0 20px 0;
+  color: #212121;
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+h4 {
+  
+}
+ h5 {
+     margin-bottom: 20px;
+     margin-top: 20px;
+     font-size: 18px;
+ }
+
+p {
+  line-height: 1.428571429;
+  font-size: 26px;
+  display: block;
+  color: #212121;
+  margin: 0 0 20px 0;
+  font-family: 'mulish';
+}
+
+
+
+section {
+  padding: 0 15px 0 15px;
+}
+  
+ul {
+  list-style: none;
+}
+
+a {
+  font-size: 20px;
+  color: #222222;
+  text-decoration: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.center {
   justify-self: center;
   align-self: center;
   justify-content: center;
   align-items: center;
-  }
- 
+  text-align: center;
+}
+
 .burger {
   position: absolute;
   left: 20px;
@@ -210,25 +221,25 @@ textarea {
 }
 
 .main-p-color{
-color: #ffffff;
-font-family: 'gotham_blackregular';
-font-size: 36px;
-margin: 0 0 10px 0;
-text-align: center;
+  color: #ffffff;
+  font-size: 36px;
+  margin: 0 0 10px 0;
+  text-align: center;
 }
 
 .second-p-color {
-color: #22ffdd;
-font-family: 'gotham_blackregular';
-font-size: 20px;
-margin: 0 0 10px 0;
-text-align: center;
+  color: #22ffdd;
+  font-size: 20px;
+  margin: 0 0 10px 0;
+  text-align: center;
+}
+
+.gotham {
+  font-family: 'gotham_blackregular';
 }
 
 .bluebox {
-  display: flex;
   flex-direction: column;
-  justify-content: center;
   height: 380px;
   background-color:#2b345d;
 }
@@ -240,26 +251,24 @@ text-align: center;
   padding: 5px 25px;
   border-radius: 24px;
   font-weight: 400;
+  text-align: center;
   text-decoration: none;
   font-family: 'mulish';
 }
 
-.btnSmall {
-  font-size: 26px;
-}
-
 .btnLarge {
   font-size: 20px;
-  margin :30px 0px;
-  padding: 5px 25px;
+  margin: 30px 0px;
+  padding: 10px 25px;
   text-align: center;
 }
 
 .firstbtn {
-  font-weight: 400;
-  justify-self: center;
-  align-self: flex-start;
-  }
+  align-items: flex-start;
+  margin: 30px 0 0 0;
+  padding: 10px 20px;
+  font-size: 26px;
+}
   
 .matching {
   height: auto;
@@ -272,6 +281,7 @@ text-align: center;
   text-align: justify;
   display: block;
   padding: 0 40px 0 40px;
+  font-family: 'mulish';
 }
 .mallow {
   background-color: #efeafa;
@@ -281,6 +291,10 @@ text-align: center;
   padding: 20px;
   flex-direction: column;
   margin: 25px;
+  font-family: 'mulish';
+  text-align: left;
+
+  justify-content: flex-start;
 }
 
 .grey-p {

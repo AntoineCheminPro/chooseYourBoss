@@ -137,9 +137,9 @@ h3 {
   
 } */
  h5 {
-     margin-bottom: 20px;
-     margin-top: 20px;
-     font-size: 18px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-size: 18px;
  }
 
 p {
@@ -247,6 +247,7 @@ a {
   text-decoration: none;
   font-family: 'mulish';
 }
+
 .firstbtn {
   margin: 30px 0 0 0;
   padding: 10px 20px;
@@ -260,8 +261,12 @@ a {
   padding: 10px 25px;
   text-align: center;
 }
-
-
+.mainphoto{
+  display: none;
+}
+.pconly {
+  display: none;
+}
   
 .matching {
   height: auto;
@@ -276,9 +281,11 @@ a {
   padding: 0 40px 0 40px;
   font-family: 'mulish';
 }
+
 .mallow {
   background-color: #efeafa;
 }
+
 .grey {
   background-color: #efefef;
   padding: 20px;
@@ -290,12 +297,24 @@ a {
   justify-content: flex-start;
 }
 
+.greypicture {
+  display: none;
+  }
+  
 .grey-p {
   font-size:16px;
+}
+
+.grey {
+  padding: 20px;
+  text-align: left;
+  justify-content: space-around;
+  flex-direction:row;
 }
 .large {
   width: 90%;
 }
+
 @media screen and (min-width: 376px){
   
 }
@@ -305,44 +324,140 @@ a {
   h1 {
     margin: 150px 0 30px;
   }
+
   header>section {
     margin-bottom: 3em;
-  }  
-  .firstbtn {
-  width: 20%;
   }
+
+  .firstbtn {
+    width: 20%;
+  }
+
   .bluebox {
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-    height: 380px;
+    height: auto;
+    padding: 2em;
   }
-  main > section > div{
+
+  main > section > article {
     width :30%;
   }
+
   .mallow {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
   }
-  h2 {
-    width: 90%;
+
+  section > h2 {
+    text-align: left;  
   }
+
   main > div > article {
     width: 45%;
   }
+
   .whitebox {
-    flex-flow: row;
+    display: flex;
+    flex-wrap: wrap;
   }
+
+  
 }
 @media screen and (min-width: 992px){
-}
-@media screen and (min-width: 1200px){
+  main > div > article {
+    width :30%;
+  }
+
 }
 
-/* h1, h2, h3 {
+@media screen and (min-width: 1200px){
+  .burger {
+    display: none;
+  }
+
+  .logo {
+    align-items: center;
+    position: absolute;
+    left: 60px;
+    height:80px;
+    width: 40px;
+    display: flex;
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  nav aside {
+    width: 65%;
+    justify-self: right;
+    justify-content: flex-end;
+  }
+
+  main > section > div {
+    margin: 30px 0 30px 0;
+  }
+  nav a { 
+    margin: .5em;
+    font-family: 'mulish';
+    font-size: 18px;
+  }
+  .pconly {
+    display: flex;
+  }
+  .mainphoto {
+    display: block;
+    width: 600px;
+  }
+
+  header section {
+    width: 35%;
+    text-align: left;
+    padding: 10px;
+  }
+
+  .bluebox {
+    justify-content: space-evenly;
+  }
+
+  section > aside {
+    width: 50%;
+  }
+  section > article {
+    width: 15%;
+  }
+  section > article > p {
+    width: 50%;
+    margin: auto;
+  }
+
+  .grey {
+    width: 55%;
+    margin: auto;
+    justify-content: space-around;
+  }
+
+  section > article > h2 {
+    text-align: left;
+  }
+
+  .grey-p {
+    margin:0;
+  }
+
+  .greypicture {
+    display: block;
+    width: 300px;
+    align-self: center;
+  }
+
 }
- */
+
 
 
 /* ==========================================================================
